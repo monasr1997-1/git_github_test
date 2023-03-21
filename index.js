@@ -3,5 +3,5 @@
 const userName = prompt('insert your name please! :)')
 
 setTimeout(()=>{
-	console.log(userName)
+	console.log(`$Hello! {userName}`)
 },4000)
